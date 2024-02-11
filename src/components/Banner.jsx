@@ -4,13 +4,11 @@ import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
-
 const Banner = () => {
   return (
     <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
       <div className="container ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
-     
           <div data-aos="zoom-in">
             <img
               src={BannerImg}
@@ -19,7 +17,6 @@ const Banner = () => {
             />
           </div>
 
-     
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
               Winter Sale upto 50% Off

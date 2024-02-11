@@ -89,12 +89,6 @@ const HomePage = ({ cart, setCart }) => {
           </div>
         ))}
       </div>
-
-      {/* <div className="flex flex-wrap -mx-2">
-      {products.map(product => (
-        <Product key={product.id} product={product} cart={cart} setCart={setCart} />
-      ))}
-    </div> */}
     </div>
   );
 };

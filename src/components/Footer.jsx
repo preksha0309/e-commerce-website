@@ -42,7 +42,6 @@ const Footer = () => {
     <div style={BannerImg} className="text-white">
       <div className="container ">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
-          {/* company details */}
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
@@ -54,7 +53,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Footer Links */}
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
             <div>
               <div className="py-8 px-4">
@@ -90,8 +88,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
-            {/* social links */}
 
             <div>
               <div className="flex items-center gap-3 mt-6">
